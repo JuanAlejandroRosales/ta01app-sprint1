@@ -1,0 +1,33 @@
+<%= content_for :header_title do %>
+    About us
+<% end %>
+
+<%= content_for :header_sub_title do %>
+    Who we are 
+<% end %>
+<div class="panel panel-default devise-bs">
+    <div class="panel-heading">
+        <h2><p><center>ACERCA DE MI</center></p></h2>
+    </div>
+        <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <%= image_tag "juan.jpg", html: { alt: "juan" }%>                 
+                    </div>
+                    <div class="col-lg-8">
+                        <h3><p><center>JUAN ALEJANDRO ROSALES CORONEL</center></p></h3>
+                        <p>Estudiante de la Carrera de Ingeria de Sistemas de la Universidad Peruana de Ciencias Aplicadas 10mo Ciclo.</p>
+                        <p>Egresado de la Carrera de Computación e Informatica del Instituto IDAT</p>
+                        <p>Especialista en el Desarrollo de Aplicaciones Móviles ANDROID. IOS, WINDOWS MOBILE </p>
+                        <p>Especialista en el Desarrollo de Aplicaciones Multiplataforma con Visual Studio y XAMARIN </p>
+                    </div>
+                </div><!--/row-->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2><p><center>RECONOCIMIENTOS</center></p></h2>
+                        <%= image_tag "diploma.jpg", html: { alt: "diploma" }%>  
+                    </div>
+                </div><!--/row-->
+        </div>
+    </div>
+
